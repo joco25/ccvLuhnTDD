@@ -1,0 +1,19 @@
+{
+    "name": "joco25/ccv",
+    "description": "Implementation of credit card validation with luhn's algorithm.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joco25",
+            "email": "onungwej@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap":[
+            "./"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}

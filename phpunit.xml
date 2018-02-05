@@ -1,0 +1,14 @@
+<phpunit
+  colors="true"
+  bootstrap="vendor/autoload.php"
+  verbose="true">
+  <testsuites>
+    <testsuite name="CreditCard Test Suite">
+      <directory suff="cardTest.php">./tests</directory>
+    </testsuite>
+  </testsuites>
+  
+  <whitelist processUncoveredFilesFromWhitelist="true">
+    <directory suffix=".php">./src</directory>
+  </whitelist>
+</phpunit>
